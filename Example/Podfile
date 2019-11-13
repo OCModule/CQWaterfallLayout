@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CQWaterfallLayout_Example' do
+  pod 'CQWaterfallLayout', :path => '../'
+
+  target 'CQWaterfallLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
