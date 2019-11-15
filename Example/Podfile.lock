@@ -1,0 +1,16 @@
+PODS:
+  - CQWaterfallLayout (0.1.0)
+
+DEPENDENCIES:
+  - CQWaterfallLayout (from `../`)
+
+EXTERNAL SOURCES:
+  CQWaterfallLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CQWaterfallLayout: f1a801e81d79b5b1c22bbeef7713d1c26aafce5f
+
+PODFILE CHECKSUM: 743b67993c01525eae43fa40b8939a53b6318c5c
+
+COCOAPODS: 1.5.3

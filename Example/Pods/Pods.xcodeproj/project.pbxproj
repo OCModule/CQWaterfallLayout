@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C19906CD1601FD95CC2CBD433BD0835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		42F8FB73A78B8399BCEDEF49E3F21860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		61F081F7544B34DBBFEF3B8DC91FEA1C /* CQWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2098AF682E37EE7BAA3D1443098AE9E2 /* CQWaterfallLayout-dummy.m */; };
+		8CF50DD5F39ADA1CEBB60C6AA0D0B31E /* Pods-CQWaterfallLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B29547E64616564A10DB560A0462FB /* Pods-CQWaterfallLayout_Example-dummy.m */; };
+		9503ECBC7F64BF94838B5E1D218CC65D /* Pods-CQWaterfallLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C17AF0CE731572FC09D0F1563D2491 /* Pods-CQWaterfallLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EAF48353CA9D5B20D7BAA5B12BE2C5 /* CQWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7478028916655487373FFE7A79A8C8CA /* CQWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DFF108F81AC2719970AA27BDAEE9C33 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BB477B29117CF9E180444B30D197801F /* ReplaceMe.m */; };
+		AE565DC319F1C0DF49C7D535113FDAED /* Pods-CQWaterfallLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE107C3A2B2E96FA971E807D3F9E5E77 /* Pods-CQWaterfallLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35DED4F6DA9C0D290A4877AB27DFD1B /* Pods-CQWaterfallLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166CA94BB90895BDCD291343B1DF540 /* Pods-CQWaterfallLayout_Tests-dummy.m */; };
+		D372F18AE9B39CFF461945CD5303B765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2EC18A028FEE10D45CBE49C743604B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A43CD8E2429C3D34BB0E881A753DD10;
+			remoteInfo = "Pods-CQWaterfallLayout_Example";
+		};
+		EF90741F348C7B6613689667D04F2180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CF6020EC02D1C5785FDBCACC601FEB;
+			remoteInfo = CQWaterfallLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F906D90E9B4D0DB749FE5E8DEAB033 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073EB42D71151817232DF87ED292443B /* Pods-CQWaterfallLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQWaterfallLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1060DE439D2A560255069597469E0BA3 /* CQWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CQWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		2098AF682E37EE7BAA3D1443098AE9E2 /* CQWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CQWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25C4192CD3E05D049EE02A754E68BAD4 /* CQWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CQWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		29D4A137B99805865EAD18C23C55E8E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3166CA94BB90895BDCD291343B1DF540 /* Pods-CQWaterfallLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQWaterfallLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58B29547E64616564A10DB560A0462FB /* Pods-CQWaterfallLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CQWaterfallLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		5A55280C96943FB75348FAEA9D85EDD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B2BEEE6AD8DAE125E7757386FBB30B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		639D03E9B38D8DEB7C707F9D24CF32DA /* CQWaterfallLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CQWaterfallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64E4EC37758E68957DE84A705340591F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652B37A187B564CF43B5D8F17816FE4A /* Pods-CQWaterfallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQWaterfallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		680634C0904A68CAEF0EF65A62199F49 /* Pods-CQWaterfallLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CQWaterfallLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		7478028916655487373FFE7A79A8C8CA /* CQWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CQWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
+		74A22480AAD99BEB70EEA3AC256BD53E /* Pods-CQWaterfallLayout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQWaterfallLayout_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		79C17AF0CE731572FC09D0F1563D2491 /* Pods-CQWaterfallLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CQWaterfallLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		7C227346A88990B866288F57D6C95B2F /* Pods-CQWaterfallLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQWaterfallLayout_Tests-resources.sh"; sourceTree = "<group>"; };
+		7CBA930AB8F79121D88E0FCD579D68D7 /* Pods-CQWaterfallLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQWaterfallLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		823244DBE89CD8ACD1966470085E1D42 /* Pods-CQWaterfallLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CQWaterfallLayout_Example.modulemap"; sourceTree = "<group>"; };
+		9460537D9F68EB7C2A54341F4DB04E88 /* Pods_CQWaterfallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CQWaterfallLayout_Example.framework; path = "Pods-CQWaterfallLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68639CE292707EB029AA628F35F91EA /* CQWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CQWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		BB477B29117CF9E180444B30D197801F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CQWaterfallLayout/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BE107C3A2B2E96FA971E807D3F9E5E77 /* Pods-CQWaterfallLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CQWaterfallLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0790A69B1E18721B1F59D4AEE060DCB /* Pods_CQWaterfallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CQWaterfallLayout_Tests.framework; path = "Pods-CQWaterfallLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB223C41EBC72D4184D86B17FD58CCA /* CQWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CQWaterfallLayout.framework; path = CQWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE26ACAB90FE586BFB7859B03F58D771 /* Pods-CQWaterfallLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CQWaterfallLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0AA701E8CC8C1327BBECC95E28D4DEC /* Pods-CQWaterfallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQWaterfallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1AAFE09969179D8861A8C536E2F492B /* Pods-CQWaterfallLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQWaterfallLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE7F7642677703C289A5DBA2D639225 /* Pods-CQWaterfallLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQWaterfallLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EFB24FD09DDB2FA026DE790F76CEC224 /* Pods-CQWaterfallLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CQWaterfallLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F38B0C302F3A502A99A4EE511D4D1ED5 /* Pods-CQWaterfallLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CQWaterfallLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F851C0C84DE0A57E568F5FB09CBA2F79 /* Pods-CQWaterfallLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CQWaterfallLayout_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8994A4DF23FD058B926DFD445BC720FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D372F18AE9B39CFF461945CD5303B765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFED663D106B18622E1EA03A96211720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C19906CD1601FD95CC2CBD433BD0835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73BE40E7DC121FED8C044097DBD0893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F8FB73A78B8399BCEDEF49E3F21860 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1794FA80A1087E7B8CE8F2564DE8E33B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC4430AFC4512BB729DBB4190EA69886 /* CQWaterfallLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1EA1307D1E18AA4A7D0BF6B21A00210D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8DF09412C7F6BDF212D2B296EDB95 /* Pods-CQWaterfallLayout_Example */,
+				A975E689D7EE60EC96D7BF5AF1118CFA /* Pods-CQWaterfallLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31F1B30D405BA09E1D2B837799783798 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1060DE439D2A560255069597469E0BA3 /* CQWaterfallLayout.modulemap */,
+				25C4192CD3E05D049EE02A754E68BAD4 /* CQWaterfallLayout.xcconfig */,
+				2098AF682E37EE7BAA3D1443098AE9E2 /* CQWaterfallLayout-dummy.m */,
+				A68639CE292707EB029AA628F35F91EA /* CQWaterfallLayout-prefix.pch */,
+				7478028916655487373FFE7A79A8C8CA /* CQWaterfallLayout-umbrella.h */,
+				5A55280C96943FB75348FAEA9D85EDD8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CQWaterfallLayout";
+			sourceTree = "<group>";
+		};
+		49FCE1061B6E25A923DEF113AE93C481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB223C41EBC72D4184D86B17FD58CCA /* CQWaterfallLayout.framework */,
+				9460537D9F68EB7C2A54341F4DB04E88 /* Pods_CQWaterfallLayout_Example.framework */,
+				C0790A69B1E18721B1F59D4AEE060DCB /* Pods_CQWaterfallLayout_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A975E689D7EE60EC96D7BF5AF1118CFA /* Pods-CQWaterfallLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00F906D90E9B4D0DB749FE5E8DEAB033 /* Info.plist */,
+				680634C0904A68CAEF0EF65A62199F49 /* Pods-CQWaterfallLayout_Tests.modulemap */,
+				CE26ACAB90FE586BFB7859B03F58D771 /* Pods-CQWaterfallLayout_Tests-acknowledgements.markdown */,
+				EFB24FD09DDB2FA026DE790F76CEC224 /* Pods-CQWaterfallLayout_Tests-acknowledgements.plist */,
+				3166CA94BB90895BDCD291343B1DF540 /* Pods-CQWaterfallLayout_Tests-dummy.m */,
+				74A22480AAD99BEB70EEA3AC256BD53E /* Pods-CQWaterfallLayout_Tests-frameworks.sh */,
+				7C227346A88990B866288F57D6C95B2F /* Pods-CQWaterfallLayout_Tests-resources.sh */,
+				BE107C3A2B2E96FA971E807D3F9E5E77 /* Pods-CQWaterfallLayout_Tests-umbrella.h */,
+				D0AA701E8CC8C1327BBECC95E28D4DEC /* Pods-CQWaterfallLayout_Tests.debug.xcconfig */,
+				F38B0C302F3A502A99A4EE511D4D1ED5 /* Pods-CQWaterfallLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-CQWaterfallLayout_Tests";
+			path = "Target Support Files/Pods-CQWaterfallLayout_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CAB8DF09412C7F6BDF212D2B296EDB95 /* Pods-CQWaterfallLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64E4EC37758E68957DE84A705340591F /* Info.plist */,
+				823244DBE89CD8ACD1966470085E1D42 /* Pods-CQWaterfallLayout_Example.modulemap */,
+				7CBA930AB8F79121D88E0FCD579D68D7 /* Pods-CQWaterfallLayout_Example-acknowledgements.markdown */,
+				073EB42D71151817232DF87ED292443B /* Pods-CQWaterfallLayout_Example-acknowledgements.plist */,
+				58B29547E64616564A10DB560A0462FB /* Pods-CQWaterfallLayout_Example-dummy.m */,
+				DAE7F7642677703C289A5DBA2D639225 /* Pods-CQWaterfallLayout_Example-frameworks.sh */,
+				F851C0C84DE0A57E568F5FB09CBA2F79 /* Pods-CQWaterfallLayout_Example-resources.sh */,
+				79C17AF0CE731572FC09D0F1563D2491 /* Pods-CQWaterfallLayout_Example-umbrella.h */,
+				D1AAFE09969179D8861A8C536E2F492B /* Pods-CQWaterfallLayout_Example.debug.xcconfig */,
+				652B37A187B564CF43B5D8F17816FE4A /* Pods-CQWaterfallLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-CQWaterfallLayout_Example";
+			path = "Target Support Files/Pods-CQWaterfallLayout_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				1794FA80A1087E7B8CE8F2564DE8E33B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				49FCE1061B6E25A923DEF113AE93C481 /* Products */,
+				1EA1307D1E18AA4A7D0BF6B21A00210D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4430AFC4512BB729DBB4190EA69886 /* CQWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BB477B29117CF9E180444B30D197801F /* ReplaceMe.m */,
+				F5AB65D9DFDC6DFE1096CCC1A9D1A307 /* Pod */,
+				31F1B30D405BA09E1D2B837799783798 /* Support Files */,
+			);
+			name = CQWaterfallLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F5AB65D9DFDC6DFE1096CCC1A9D1A307 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				639D03E9B38D8DEB7C707F9D24CF32DA /* CQWaterfallLayout.podspec */,
+				61B2BEEE6AD8DAE125E7757386FBB30B /* LICENSE */,
+				29D4A137B99805865EAD18C23C55E8E1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A88A5C3014438BBA6C508C1E192C38A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE565DC319F1C0DF49C7D535113FDAED /* Pods-CQWaterfallLayout_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D545407F22D7DA342AC602F3DF8E19B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EAF48353CA9D5B20D7BAA5B12BE2C5 /* CQWaterfallLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA82DC22E733A50E4B7A4713FBCE3331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9503ECBC7F64BF94838B5E1D218CC65D /* Pods-CQWaterfallLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CEADC29C577D2AD2A97CD15EFBC9CD3 /* Pods-CQWaterfallLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8148DB78380BE7BBA7A54B6240AACC2 /* Build configuration list for PBXNativeTarget "Pods-CQWaterfallLayout_Tests" */;
+			buildPhases = (
+				0A88A5C3014438BBA6C508C1E192C38A /* Headers */,
+				B0454383E1E22CCA011B48A082E409CC /* Sources */,
+				8994A4DF23FD058B926DFD445BC720FC /* Frameworks */,
+				EC653D53696AA608838523722FC35FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B172896874DD8FA25597AC47027582C /* PBXTargetDependency */,
+			);
+			name = "Pods-CQWaterfallLayout_Tests";
+			productName = "Pods-CQWaterfallLayout_Tests";
+			productReference = C0790A69B1E18721B1F59D4AEE060DCB /* Pods_CQWaterfallLayout_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A43CD8E2429C3D34BB0E881A753DD10 /* Pods-CQWaterfallLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F676898B46B439741A7CFA570B9F52BB /* Build configuration list for PBXNativeTarget "Pods-CQWaterfallLayout_Example" */;
+			buildPhases = (
+				CA82DC22E733A50E4B7A4713FBCE3331 /* Headers */,
+				8183F5153F434B87885B32C69CE312F6 /* Sources */,
+				F73BE40E7DC121FED8C044097DBD0893 /* Frameworks */,
+				C7C6E44D3872D0909B59441AC26A94AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F22736529BE66C276E39295ADD0BB962 /* PBXTargetDependency */,
+			);
+			name = "Pods-CQWaterfallLayout_Example";
+			productName = "Pods-CQWaterfallLayout_Example";
+			productReference = 9460537D9F68EB7C2A54341F4DB04E88 /* Pods_CQWaterfallLayout_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79CF6020EC02D1C5785FDBCACC601FEB /* CQWaterfallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98004AE84D92D44E3794D67BFC946B32 /* Build configuration list for PBXNativeTarget "CQWaterfallLayout" */;
+			buildPhases = (
+				1D545407F22D7DA342AC602F3DF8E19B /* Headers */,
+				9F321A2487941C699B28CC35A99335BD /* Sources */,
+				EFED663D106B18622E1EA03A96211720 /* Frameworks */,
+				9410909378579FC9E9E4202AFFE497E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQWaterfallLayout;
+			productName = CQWaterfallLayout;
+			productReference = CDB223C41EBC72D4184D86B17FD58CCA /* CQWaterfallLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 49FCE1061B6E25A923DEF113AE93C481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CF6020EC02D1C5785FDBCACC601FEB /* CQWaterfallLayout */,
+				5A43CD8E2429C3D34BB0E881A753DD10 /* Pods-CQWaterfallLayout_Example */,
+				0CEADC29C577D2AD2A97CD15EFBC9CD3 /* Pods-CQWaterfallLayout_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9410909378579FC9E9E4202AFFE497E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7C6E44D3872D0909B59441AC26A94AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC653D53696AA608838523722FC35FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8183F5153F434B87885B32C69CE312F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF50DD5F39ADA1CEBB60C6AA0D0B31E /* Pods-CQWaterfallLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F321A2487941C699B28CC35A99335BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F081F7544B34DBBFEF3B8DC91FEA1C /* CQWaterfallLayout-dummy.m in Sources */,
+				9DFF108F81AC2719970AA27BDAEE9C33 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0454383E1E22CCA011B48A082E409CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35DED4F6DA9C0D290A4877AB27DFD1B /* Pods-CQWaterfallLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B172896874DD8FA25597AC47027582C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CQWaterfallLayout_Example";
+			target = 5A43CD8E2429C3D34BB0E881A753DD10 /* Pods-CQWaterfallLayout_Example */;
+			targetProxy = 4C2EC18A028FEE10D45CBE49C743604B /* PBXContainerItemProxy */;
+		};
+		F22736529BE66C276E39295ADD0BB962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CQWaterfallLayout;
+			target = 79CF6020EC02D1C5785FDBCACC601FEB /* CQWaterfallLayout */;
+			targetProxy = EF90741F348C7B6613689667D04F2180 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27F7C52D549D53041C239C442339CE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C4192CD3E05D049EE02A754E68BAD4 /* CQWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CQWaterfallLayout/CQWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CQWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CQWaterfallLayout/CQWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CQWaterfallLayout;
+				PRODUCT_NAME = CQWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		62780A8B4B44B3DFA98345371325579F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		678A0E7BC45BADD59D0C60466D99D4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652B37A187B564CF43B5D8F17816FE4A /* Pods-CQWaterfallLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CQWaterfallLayout_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQWaterfallLayout_Example/Pods-CQWaterfallLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C1EE06370FD2B29EA7526417D09F86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38B0C302F3A502A99A4EE511D4D1ED5 /* Pods-CQWaterfallLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CQWaterfallLayout_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQWaterfallLayout_Tests/Pods-CQWaterfallLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2B9DE84A94E0C7DC1A6699C4056BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C4192CD3E05D049EE02A754E68BAD4 /* CQWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CQWaterfallLayout/CQWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CQWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CQWaterfallLayout/CQWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CQWaterfallLayout;
+				PRODUCT_NAME = CQWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B47D7B53C7FA98E5E277D8BCF1D2B520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0AA701E8CC8C1327BBECC95E28D4DEC /* Pods-CQWaterfallLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CQWaterfallLayout_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQWaterfallLayout_Tests/Pods-CQWaterfallLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B98A42C00E9631A2D4B7D0733256F132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AAFE09969179D8861A8C536E2F492B /* Pods-CQWaterfallLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CQWaterfallLayout_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CQWaterfallLayout_Example/Pods-CQWaterfallLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62780A8B4B44B3DFA98345371325579F /* Debug */,
+				3E1E8F4C5B356DDEEC76DDFDC606DC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98004AE84D92D44E3794D67BFC946B32 /* Build configuration list for PBXNativeTarget "CQWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B9DE84A94E0C7DC1A6699C4056BA96 /* Debug */,
+				27F7C52D549D53041C239C442339CE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8148DB78380BE7BBA7A54B6240AACC2 /* Build configuration list for PBXNativeTarget "Pods-CQWaterfallLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47D7B53C7FA98E5E277D8BCF1D2B520 /* Debug */,
+				8C1EE06370FD2B29EA7526417D09F86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F676898B46B439741A7CFA570B9F52BB /* Build configuration list for PBXNativeTarget "Pods-CQWaterfallLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98A42C00E9631A2D4B7D0733256F132 /* Debug */,
+				678A0E7BC45BADD59D0C60466D99D4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

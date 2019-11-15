@@ -22,6 +22,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AA0DCB8F237C23FF007D9D84 /* CQWCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DCB8E237C23FF007D9D84 /* CQWCardModel.m */; };
+		AA0DCB92237C3631007D9D84 /* ACGWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DCB91237C3631007D9D84 /* ACGWaterfallLayout.m */; };
+		AAAE62E2237C376900C5BEFA /* CQWCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE62E0237C376900C5BEFA /* CQWCardCell.m */; };
+		AAAE62E3237C376900C5BEFA /* CQWCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */; };
 		B1FB384766220E6F3AAC898B /* Pods_CQWaterfallLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6276F4BC1968590FE082166 /* Pods_CQWaterfallLayout_Example.framework */; };
 		E1312296264591010AFAB4C7 /* Pods_CQWaterfallLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB8047023B2E60F0264A556 /* Pods_CQWaterfallLayout_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14B54BF6D9588D3931DE6796 /* CQWaterfallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CQWaterfallLayout.podspec; path = ../CQWaterfallLayout.podspec; sourceTree = "<group>"; };
+		14B54BF6D9588D3931DE6796 /* CQWaterfallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CQWaterfallLayout.podspec; path = ../CQWaterfallLayout.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CQWaterfallLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQWaterfallLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +66,16 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DB8047023B2E60F0264A556 /* Pods_CQWaterfallLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQWaterfallLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E99B2F6CFBA73ECA1126EBA /* Pods-CQWaterfallLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQWaterfallLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQWaterfallLayout_Example/Pods-CQWaterfallLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0DCB8D237C23FF007D9D84 /* CQWCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWCardModel.h; sourceTree = "<group>"; };
+		AA0DCB8E237C23FF007D9D84 /* CQWCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardModel.m; sourceTree = "<group>"; };
+		AA0DCB90237C3631007D9D84 /* ACGWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACGWaterfallLayout.h; sourceTree = "<group>"; };
+		AA0DCB91237C3631007D9D84 /* ACGWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACGWaterfallLayout.m; sourceTree = "<group>"; };
+		AAAE62DF237C376900C5BEFA /* CQWCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWCardCell.h; sourceTree = "<group>"; };
+		AAAE62E0237C376900C5BEFA /* CQWCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardCell.m; sourceTree = "<group>"; };
+		AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CQWCardCell.xib; sourceTree = "<group>"; };
 		C8D5EEAFD851CF96A2EACA5A /* Pods-CQWaterfallLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQWaterfallLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQWaterfallLayout_Tests/Pods-CQWaterfallLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D08E8ECFFAD23240C86FFA62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E2F01A502ADD1CA490DCB92D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D08E8ECFFAD23240C86FFA62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2F01A502ADD1CA490DCB92D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E6276F4BC1968590FE082166 /* Pods_CQWaterfallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQWaterfallLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7707BC90AC4559E74ADB63 /* Pods-CQWaterfallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQWaterfallLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQWaterfallLayout_Example/Pods-CQWaterfallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +151,13 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				AA0DCB8D237C23FF007D9D84 /* CQWCardModel.h */,
+				AA0DCB8E237C23FF007D9D84 /* CQWCardModel.m */,
+				AA0DCB90237C3631007D9D84 /* ACGWaterfallLayout.h */,
+				AA0DCB91237C3631007D9D84 /* ACGWaterfallLayout.m */,
+				AAAE62DF237C376900C5BEFA /* CQWCardCell.h */,
+				AAAE62E0237C376900C5BEFA /* CQWCardCell.m */,
+				AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */,
 			);
 			name = "Example for CQWaterfallLayout";
 			path = CQWaterfallLayout;
@@ -257,6 +275,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				AAAE62E3237C376900C5BEFA /* CQWCardCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -369,7 +389,10 @@
 			files = (
 				6003F59E195388D20070C39A /* CQWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CQWViewController.m in Sources */,
+				AA0DCB92237C3631007D9D84 /* ACGWaterfallLayout.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AA0DCB8F237C23FF007D9D84 /* CQWCardModel.m in Sources */,
+				AAAE62E2237C376900C5BEFA /* CQWCardCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
