@@ -22,7 +22,7 @@ pod 'CQWaterfallLayout'
 
 ## Author
 
-王承权, wangchengquan@qiyi.com
+CQ
 
 ## License
 

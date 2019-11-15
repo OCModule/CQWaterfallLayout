@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/王承权/CQWaterfallLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '王承权' => 'wangchengquan@qiyi.com' }
-  s.source           = { :git => 'https://github.com/王承权/CQWaterfallLayout.git', :tag => s.version.to_s }
+  s.author           = { 'cq' => 'cq' }
+  s.source           = { :git => 'https://github.com/cq/CQWaterfallLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
