@@ -60,6 +60,30 @@ static CGFloat WFLFloorCGFloat(CGFloat value) {
   }
 }
 
+- (CGFloat)minimumInteritemSpacingForSection:(NSInteger)section {
+    if ([self.delegate respondsToSelector:@selector(collectionView:layout:minimumInteritemSpacingForSectionAtIndex:)]) {
+        return [self.delegate collectionView:self.collectionView layout:self minimumInteritemSpacingForSectionAtIndex:section];
+    } else {
+        return self.minimumInteritemSpacing;
+    }
+}
+
+- (CGFloat)minimumColumnSpacingForSection:(NSInteger)section {
+    if ([self.delegate respondsToSelector:@selector(collectionView:layout:minimumColumnSpacingForSectionAtIndex:)]) {
+        return [self.delegate collectionView:self.collectionView layout:self minimumColumnSpacingForSectionAtIndex:section];
+    } else {
+        return self.minimumColumnSpacing;
+    }
+}
+
+- (UIEdgeInsets)sectionInsetForSection:(NSInteger)section {
+    if ([self.delegate respondsToSelector:@selector(collectionView:layout:insetForSectionAtIndex:)]) {
+        return [self.delegate collectionView:self.collectionView layout:self insetForSectionAtIndex:section];
+    } else {
+        return self.sectionInset;
+    }
+}
+
 - (void)setSectionInset:(UIEdgeInsets)sectionInset {
   if (!UIEdgeInsetsEqualToEdgeInsets(_sectionInset, sectionInset)) {
     _sectionInset = sectionInset;
@@ -187,34 +211,18 @@ static CGFloat WFLFloorCGFloat(CGFloat value) {
     CGFloat top = 0;
     UICollectionViewLayoutAttributes *attributes;
     for (NSInteger section = 0; section < numberOfSections; ++section) {
-        CGFloat minimumInteritemSpacing;
-        if ([self.delegate respondsToSelector:@selector(collectionView:layout:minimumInteritemSpacingForSectionAtIndex:)]) {
-            minimumInteritemSpacing = [self.delegate collectionView:self.collectionView layout:self minimumInteritemSpacingForSectionAtIndex:section];
-        } else {
-            minimumInteritemSpacing = self.minimumInteritemSpacing;
-        }
-
-        CGFloat columnSpacing = self.minimumColumnSpacing;
-        if ([self.delegate respondsToSelector:@selector(collectionView:layout:minimumColumnSpacingForSectionAtIndex:)]) {
-            columnSpacing = [self.delegate collectionView:self.collectionView layout:self minimumColumnSpacingForSectionAtIndex:section];
-        }
-        UIEdgeInsets sectionInset;
-        if ([self.delegate respondsToSelector:@selector(collectionView:layout:insetForSectionAtIndex:)]) {
-            sectionInset = [self.delegate collectionView:self.collectionView layout:self insetForSectionAtIndex:section];
-        } else {
-            sectionInset = self.sectionInset;
-        }
+        CGFloat minimumInteritemSpacing = [self minimumInteritemSpacingForSection:section];
+        CGFloat minimumColumnSpacing = [self minimumColumnSpacingForSection:section];
+        UIEdgeInsets sectionInset = [self sectionInsetForSection:section];
         CGFloat width = self.collectionView.bounds.size.width - sectionInset.left - sectionInset.right;
         NSInteger columnCount = [self columnCountForSection:section];
-        CGFloat itemWidth = WFLFloorCGFloat((width - (columnCount - 1) * columnSpacing) / columnCount);
-        
+        CGFloat itemWidth = WFLFloorCGFloat((width - (columnCount - 1) * minimumColumnSpacing) / columnCount);
         NSInteger itemCount = [self.collectionView numberOfItemsInSection:section];
         NSMutableArray *itemAttributes = [NSMutableArray arrayWithCapacity:itemCount];
-        
         for (idx = 0; idx < itemCount; idx++) {
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:idx inSection:section];
             NSUInteger columnIndex = [self shortestColumnIndexInSection:section];
-            CGFloat xOffset = sectionInset.left + (itemWidth + columnSpacing) * columnIndex;
+            CGFloat xOffset = sectionInset.left + (itemWidth + minimumColumnSpacing) * columnIndex;
             CGFloat yOffset = [self.columnHeights[section][columnIndex] floatValue];
             CGSize itemSize = [self.delegate collectionView:self.collectionView layout:self sizeForItemAtIndexPath:indexPath];
             CGFloat itemHeight = 0;
