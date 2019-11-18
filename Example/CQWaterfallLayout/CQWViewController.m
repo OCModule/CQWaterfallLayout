@@ -110,6 +110,7 @@
         layout.footerHeight = 80;
         layout.minimumColumnSpacing = 10;
         layout.minimumInteritemSpacing = 10;
+        layout.columnCount = 2;
         CGRect bounds = self.view.bounds;
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, bounds.size.width, bounds.size.height - 100) collectionViewLayout:layout];
         [_collectionView registerNib:[UINib nibWithNibName:[CQWCardCell reuseIdentifier] bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:[CQWCardCell reuseIdentifier]];
