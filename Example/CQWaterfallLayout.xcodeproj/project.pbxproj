@@ -24,6 +24,11 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AA0DCB8F237C23FF007D9D84 /* CQWCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DCB8E237C23FF007D9D84 /* CQWCardModel.m */; };
 		AA0DCB92237C3631007D9D84 /* ACGWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0DCB91237C3631007D9D84 /* ACGWaterfallLayout.m */; };
+		AAAB9AD92382693900CD5362 /* UIColor+CQExt.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9AD72382693900CD5362 /* UIColor+CQExt.m */; };
+		AAAB9ADD238278E000CD5362 /* CQWCardHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9ADB238278E000CD5362 /* CQWCardHeader.m */; };
+		AAAB9ADE238278E000CD5362 /* CQWCardHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9ADC238278E000CD5362 /* CQWCardHeader.xib */; };
+		AAAB9AE22382791700CD5362 /* CQWCardFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAB9AE02382791700CD5362 /* CQWCardFooter.m */; };
+		AAAB9AE32382791700CD5362 /* CQWCardFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAB9AE12382791700CD5362 /* CQWCardFooter.xib */; };
 		AAAE62E2237C376900C5BEFA /* CQWCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAE62E0237C376900C5BEFA /* CQWCardCell.m */; };
 		AAAE62E3237C376900C5BEFA /* CQWCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */; };
 		B1FB384766220E6F3AAC898B /* Pods_CQWaterfallLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6276F4BC1968590FE082166 /* Pods_CQWaterfallLayout_Example.framework */; };
@@ -70,6 +75,14 @@
 		AA0DCB8E237C23FF007D9D84 /* CQWCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardModel.m; sourceTree = "<group>"; };
 		AA0DCB90237C3631007D9D84 /* ACGWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACGWaterfallLayout.h; sourceTree = "<group>"; };
 		AA0DCB91237C3631007D9D84 /* ACGWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACGWaterfallLayout.m; sourceTree = "<group>"; };
+		AAAB9AD72382693900CD5362 /* UIColor+CQExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CQExt.m"; sourceTree = "<group>"; };
+		AAAB9AD82382693900CD5362 /* UIColor+CQExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CQExt.h"; sourceTree = "<group>"; };
+		AAAB9ADA238278E000CD5362 /* CQWCardHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWCardHeader.h; sourceTree = "<group>"; };
+		AAAB9ADB238278E000CD5362 /* CQWCardHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardHeader.m; sourceTree = "<group>"; };
+		AAAB9ADC238278E000CD5362 /* CQWCardHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CQWCardHeader.xib; sourceTree = "<group>"; };
+		AAAB9ADF2382791700CD5362 /* CQWCardFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWCardFooter.h; sourceTree = "<group>"; };
+		AAAB9AE02382791700CD5362 /* CQWCardFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardFooter.m; sourceTree = "<group>"; };
+		AAAB9AE12382791700CD5362 /* CQWCardFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CQWCardFooter.xib; sourceTree = "<group>"; };
 		AAAE62DF237C376900C5BEFA /* CQWCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CQWCardCell.h; sourceTree = "<group>"; };
 		AAAE62E0237C376900C5BEFA /* CQWCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQWCardCell.m; sourceTree = "<group>"; };
 		AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CQWCardCell.xib; sourceTree = "<group>"; };
@@ -143,6 +156,8 @@
 		6003F593195388D20070C39A /* Example for CQWaterfallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				AAAB9AD82382693900CD5362 /* UIColor+CQExt.h */,
+				AAAB9AD72382693900CD5362 /* UIColor+CQExt.m */,
 				6003F59C195388D20070C39A /* CQWAppDelegate.h */,
 				6003F59D195388D20070C39A /* CQWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -158,6 +173,12 @@
 				AAAE62DF237C376900C5BEFA /* CQWCardCell.h */,
 				AAAE62E0237C376900C5BEFA /* CQWCardCell.m */,
 				AAAE62E1237C376900C5BEFA /* CQWCardCell.xib */,
+				AAAB9ADA238278E000CD5362 /* CQWCardHeader.h */,
+				AAAB9ADB238278E000CD5362 /* CQWCardHeader.m */,
+				AAAB9ADC238278E000CD5362 /* CQWCardHeader.xib */,
+				AAAB9ADF2382791700CD5362 /* CQWCardFooter.h */,
+				AAAB9AE02382791700CD5362 /* CQWCardFooter.m */,
+				AAAB9AE12382791700CD5362 /* CQWCardFooter.xib */,
 			);
 			name = "Example for CQWaterfallLayout";
 			path = CQWaterfallLayout;
@@ -295,9 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAB9ADE238278E000CD5362 /* CQWCardHeader.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				AAAE62E3237C376900C5BEFA /* CQWCardCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				AAAB9AE32382791700CD5362 /* CQWCardFooter.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -387,12 +410,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAB9ADD238278E000CD5362 /* CQWCardHeader.m in Sources */,
 				6003F59E195388D20070C39A /* CQWAppDelegate.m in Sources */,
+				AAAB9AE22382791700CD5362 /* CQWCardFooter.m in Sources */,
 				6003F5A7195388D20070C39A /* CQWViewController.m in Sources */,
 				AA0DCB92237C3631007D9D84 /* ACGWaterfallLayout.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				AA0DCB8F237C23FF007D9D84 /* CQWCardModel.m in Sources */,
 				AAAE62E2237C376900C5BEFA /* CQWCardCell.m in Sources */,
+				AAAB9AD92382693900CD5362 /* UIColor+CQExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

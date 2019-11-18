@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+extern NSString *const ACGWaterfallElementKindSectionHeader;
+extern NSString *const ACGWaterfallElementKindSectionFooter;
 
 @protocol ACGWaterfallDelegateFlowLayout <UICollectionViewDelegate>
 
@@ -27,12 +29,26 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section;
 
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout heightForHeaderInSection:(NSInteger)section;
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout heightForFooterInSection:(NSInteger)section;
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForHeaderInSection:(NSInteger)section;
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForFooterInSection:(NSInteger)section;
+
 @end
 
-@interface ACGWaterfallLayout : UICollectionViewFlowLayout
+@interface ACGWaterfallLayout : UICollectionViewLayout
 
 @property (nonatomic, assign) NSInteger columnCount;
 @property (nonatomic, assign) CGFloat minimumColumnSpacing;
+@property (nonatomic, assign) CGFloat minimumInteritemSpacing;
+@property (nonatomic, assign) CGFloat headerHeight;
+@property (nonatomic, assign) CGFloat footerHeight;
+@property (nonatomic, assign) UIEdgeInsets sectionInset;
+@property (nonatomic, assign) UIEdgeInsets headerInset;
+@property (nonatomic, assign) UIEdgeInsets footerInset;
 
 @end
 

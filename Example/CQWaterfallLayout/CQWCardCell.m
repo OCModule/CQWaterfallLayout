@@ -13,7 +13,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    self.contentView.backgroundColor = [UIColor whiteColor];
+//    self.contentView.backgroundColor = [UIColor whiteColor];
     self.contentView.layer.borderColor = [UIColor lightGrayColor].CGColor;
     self.contentView.layer.borderWidth = 1;
     self.contentView.layer.cornerRadius = 4;
@@ -36,5 +36,8 @@
     self.imgView.image = [UIImage imageNamed:card.imgName];
 }
 
++ (NSString *)reuseIdentifier {
+    return NSStringFromClass([self class]);
+}
 
 @end

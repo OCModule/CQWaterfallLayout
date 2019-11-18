@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define ITEM_WIDTH ([UIApplication sharedApplication].keyWindow.bounds.size.width - 10) / 2.0
+#define ITEM_WIDTH ([UIApplication sharedApplication].keyWindow.bounds.size.width) / 2.0
 
 @interface CQWCardCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *descLabel;
 
 - (void)configWith: (CQWCardModel *)card;
-
++ (NSString *)reuseIdentifier;
 @end
 
 NS_ASSUME_NONNULL_END
