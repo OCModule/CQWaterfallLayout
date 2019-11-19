@@ -25,7 +25,7 @@ NSString *const ACGWaterfallElementKindSectionFooter = @"ACGWaterfallElementKind
 
 @implementation ACGWaterfallLayout
 
-static const NSInteger unionSize = NSIntegerMax;
+static const NSInteger unionSize = 20;
 
 static CGFloat WFLFloorCGFloat(CGFloat value) {
     CGFloat scale = [UIScreen mainScreen].scale;

@@ -52,20 +52,20 @@
     return cell;
 }
 
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
-    UICollectionReusableView *reusableView = nil;
-    if ([kind isEqualToString:ACGWaterfallElementKindSectionHeader]) {
-        reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind
-                                                      withReuseIdentifier:[CQWCardHeader reuseIdentifier]
-                                                             forIndexPath:indexPath];
-    } else if ([kind isEqualToString:ACGWaterfallElementKindSectionFooter]) {
-        reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind
-                                                      withReuseIdentifier:[CQWCardFooter reuseIdentifier]
-                                                             forIndexPath:indexPath];
-    }
-    reusableView.backgroundColor = [UIColor randomColor];
-    return reusableView;
-}
+//- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+//    UICollectionReusableView *reusableView = nil;
+//    if ([kind isEqualToString:ACGWaterfallElementKindSectionHeader]) {
+//        reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind
+//                                                      withReuseIdentifier:[CQWCardHeader reuseIdentifier]
+//                                                             forIndexPath:indexPath];
+//    } else if ([kind isEqualToString:ACGWaterfallElementKindSectionFooter]) {
+//        reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind
+//                                                      withReuseIdentifier:[CQWCardFooter reuseIdentifier]
+//                                                             forIndexPath:indexPath];
+//    }
+//    reusableView.backgroundColor = [UIColor randomColor];
+//    return reusableView;
+//}
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"tap %ld", indexPath.item);
@@ -106,16 +106,16 @@
     if (!_collectionView) {
         ACGWaterfallLayout *layout = [[ACGWaterfallLayout alloc] init];
         layout.sectionInset = UIEdgeInsetsMake(20, 20, 20, 20);
-        layout.headerHeight = 60;
-        layout.footerHeight = 80;
+//        layout.headerHeight = 60;
+//        layout.footerHeight = 80;
         layout.minimumColumnSpacing = 10;
         layout.minimumInteritemSpacing = 10;
         layout.columnCount = 2;
         CGRect bounds = self.view.bounds;
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, bounds.size.width, bounds.size.height - 100) collectionViewLayout:layout];
         [_collectionView registerNib:[UINib nibWithNibName:[CQWCardCell reuseIdentifier] bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:[CQWCardCell reuseIdentifier]];
-        [_collectionView registerNib:[UINib nibWithNibName:[CQWCardHeader reuseIdentifier] bundle:[NSBundle mainBundle]] forSupplementaryViewOfKind:ACGWaterfallElementKindSectionHeader withReuseIdentifier:[CQWCardHeader reuseIdentifier]];
-        [_collectionView registerNib:[UINib nibWithNibName:[CQWCardFooter reuseIdentifier] bundle:[NSBundle mainBundle]] forSupplementaryViewOfKind:ACGWaterfallElementKindSectionFooter withReuseIdentifier:[CQWCardFooter reuseIdentifier]];
+//        [_collectionView registerNib:[UINib nibWithNibName:[CQWCardHeader reuseIdentifier] bundle:[NSBundle mainBundle]] forSupplementaryViewOfKind:ACGWaterfallElementKindSectionHeader withReuseIdentifier:[CQWCardHeader reuseIdentifier]];
+//        [_collectionView registerNib:[UINib nibWithNibName:[CQWCardFooter reuseIdentifier] bundle:[NSBundle mainBundle]] forSupplementaryViewOfKind:ACGWaterfallElementKindSectionFooter withReuseIdentifier:[CQWCardFooter reuseIdentifier]];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         _collectionView.backgroundColor = [UIColor redColor];
