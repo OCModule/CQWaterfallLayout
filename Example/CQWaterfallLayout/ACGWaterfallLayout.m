@@ -254,6 +254,7 @@ static CGFloat WFLFloorCGFloat(CGFloat value) {
 
 - (void)prepareLayout {
     [super prepareLayout];
+    [self.unionRects removeAllObjects];
     [self.allItemAttributes removeAllObjects];
     [self.headerAttributes removeAllObjects];
     [self.sectionItemAttributes removeAllObjects];
@@ -293,7 +294,7 @@ static CGFloat WFLFloorCGFloat(CGFloat value) {
     CGFloat top = 0;
     UICollectionViewLayoutAttributes *attributes;
     NSInteger numberOfSections = [self.collectionView numberOfSections];
-    for (NSInteger section = 0; section < numberOfSections; section++) {
+    for (NSInteger section = 0; section < numberOfSections; ++section) {
         /*
         * 1. Get section-specific metrics (minimumInteritemSpacing, sectionInset)
         */

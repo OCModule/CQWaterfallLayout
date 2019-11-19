@@ -1,16 +1,23 @@
 PODS:
   - CQWaterfallLayout (0.1.0)
+  - MJRefresh (3.2.0)
 
 DEPENDENCIES:
   - CQWaterfallLayout (from `../`)
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
 
 EXTERNAL SOURCES:
   CQWaterfallLayout:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CQWaterfallLayout: f1a801e81d79b5b1c22bbeef7713d1c26aafce5f
+  CQWaterfallLayout: 094cd94f6cbe82d30c59f8fb48315739f2367d9f
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
 
-PODFILE CHECKSUM: 743b67993c01525eae43fa40b8939a53b6318c5c
+PODFILE CHECKSUM: 6b0e6d37a9af835d03c745029cbe0dd0f1e978b8
 
 COCOAPODS: 1.5.3

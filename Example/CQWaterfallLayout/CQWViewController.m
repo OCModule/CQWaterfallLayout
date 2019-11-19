@@ -13,6 +13,7 @@
 #import "CQWCardFooter.h"
 #import "CQWCardModel.h"
 #import "UIColor+CQExt.h"
+#import "MJRefresh.h"
 
 @interface CQWViewController ()<UICollectionViewDataSource, ACGWaterfallDelegateFlowLayout>
 
@@ -27,7 +28,22 @@
 {
     [super viewDidLoad];
 //    self.collectionView.backgroundColor = [UIColor whiteColor];
+
     [self.view addSubview:self.collectionView];
+    self.collectionView.mj_header = [MJRefreshHeader headerWithRefreshingBlock:^{
+        [self delay:1 block:^{
+            [self.collectionView.mj_header endRefreshing];
+        }];
+    }];
+    self.collectionView.mj_footer = [MJRefreshFooter footerWithRefreshingBlock:^{
+        [self delay:1 block:^{
+            [self.collectionView.mj_footer endRefreshing];
+        }];
+    }];
+}
+
+- (void)delay: (int64_t)seconds block: (dispatch_block_t)block {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(seconds * NSEC_PER_SEC)), dispatch_get_main_queue(), block);
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -126,7 +142,7 @@
 - (NSArray<NSArray<CQWCardModel *>*> *)datas {
     if (!_datas) {
         NSMutableArray *tmp = [NSMutableArray array];
-        for (NSInteger i = 0; i < 3; i++) {
+        for (NSInteger i = 0; i < 1; i++) {
             NSMutableArray *data = [NSMutableArray array];
             for (NSInteger i=0; i < 5; i ++) {
                 CQWCardModel *card = [[CQWCardModel alloc] init];

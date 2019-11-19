@@ -391,12 +391,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CQWaterfallLayout_Example/Pods-CQWaterfallLayout_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CQWaterfallLayout/CQWaterfallLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CQWaterfallLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

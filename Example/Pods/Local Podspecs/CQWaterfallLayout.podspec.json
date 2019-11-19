@@ -9,10 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "王承权": "wangchengquan@qiyi.com"
+    "cq": "cq"
   },
   "source": {
-    "git": "https://github.com/王承权/CQWaterfallLayout.git",
+    "git": "https://github.com/cq/CQWaterfallLayout.git",
     "tag": "0.1.0"
   },
   "platforms": {
